@@ -1,0 +1,10 @@
+<?php  
+$host = 'localhost';  
+$user = 'buildrr_user';  
+$pass = 'C?yVzqhgB+Zp'; 
+$database = 'buildrr_live';
+$conn = mysqli_connect($host, $user, $pass,$database);  
+if(!$conn)	{
+	die("Connection failed: " . mysqli_connect_error());
+}
+?>

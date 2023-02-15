@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# add trailing slash
+
+RewriteCond %{REQUEST_URI} !(/$|\.) 
+RewriteRule (.*) %{REQUEST_URI}/ [R=301,L] 
+
+RewriteCond %{REQUEST_URI} /$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ pages/$1.php [L]
+
+
+RewriteCond %{REQUEST_URI} /$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1.php [L]
+
+
+# redirect example.com/index.php to example.com/
+
+RewriteCond %{REQUEST_URI} index\.php$
+RewriteRule ^(.*)index\.php$ /$1/ [R=301,L]
