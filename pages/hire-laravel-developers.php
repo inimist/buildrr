@@ -8,7 +8,7 @@ $bannertext = [
 			 'bottom_text' => ['<strong>16+</strong> Years Experience', '<span><strong>450+</strong> Full Time Developers</span>', '<span><strong>2000+</strong> Man Years Exp</span>', '<span><strong>2500+</strong> Satisfied Customers</span>'],
 			 'list_item' => true,
 			 'bootom_area' => true,
-			 'bottom_img' => SITE_URL.'/images/home-certificate.webp'			 
+			 'bottom_img' => SITE_URL.'/images/home-certificate.webp' 
 ];
 echo get_template_html('bannersec', $bannertext);
 ?>
@@ -17,25 +17,25 @@ echo get_template_html('bannersec', $bannertext);
 <?php
 $c_images = [
     [
-         'title' => 'North America',
-		 'class' => ['company1','company2','company3','company4','company5'],
+		//'title' => 'North America',
+		'class' => ['company1','company2','company3','company4','company5'],
     ],
 	[
-         'title' => 'Asia Pacific Region',
-		 'class' => ['company10','company11','company12','company13','company14'],
+		//'title' => 'Asia Pacific Region',
+		'class' => ['company10','company11','company12','company13','company14'],
     ],
 	[
-         'title' => 'Europe',
-		 'class' => ['company16','company17','company18','company19','company20'],
+        //'title' => 'Europe',
+		'class' => ['company16','company17','company18','company19','company20'],
+    ],
+	/*[
+        //'title' => 'Middle East & Africa',
+		'class' => ['company23','company24','company25','company26','company27'],
     ],
 	[
-         'title' => 'Middle East & Africa',
-		 'class' => ['company23','company24','company25','company26','company27'],
-    ],
-	[
-         'title' => 'India',
-		 'class' => ['company28','company29','company30','company31','company32'],
-    ],
+		//'title' => 'India',
+		'class' => ['company28','company29','company30','company31','company32'],
+    ],*/
 ];
 $compaines = [
         'heading' => 'Top Companies Around The World Trust Buildrr For Hiring Laravel Developers',
@@ -138,7 +138,7 @@ $why_hire = [
 $whyrow = [
         'heading' => 'Why Hire Laravel Developers From Buildrr?',
         'intro' => "We have some of the industry's top developers working on clients' web development projects. So, if you want to hire Laravel developers with sheer excellence in building robust web solutions for your business requirements, Buildrr is the perfect company to go for. Check out some other reasons to consider our Laravel developers for hire to handle your innovative web development project -",
-		'image' => SITE_URL.'/images/tourimg.webp',
+		'image' => SITE_URL.'/images/tourimg-bg.png',
 		'why_hire' => $why_hire,
 		'bg_class' => 'bg-green',
 ];
@@ -669,13 +669,13 @@ echo get_template_html('faqs-row', $faqsRow);?>
 <!--- section faqRow end --->
 <!--- section awardsRow start --->
 <?php
-$slides =['icon1', 'icon2', 'icon3','icon4', 'icon5', 'icon6'];
-$images = ['icon1', 'icon2', 'icon3', 'icon4', 'icon5', 'icon6', 'icon7', 'icon8', 'icon9', 'icon10', 'icon11', 'icon12', 'icon13', 'icon14', 'icon15', 'icon16', 'icon17', 'icon18', 'icon19'];
+//$slides =['icon1', 'icon2', 'icon3','icon4', 'icon5', 'icon6'];
+$images = ['icon1', 'icon2', 'icon3', 'icon4', 'icon5', 'icon6', 'icon7', 'icon8', 'icon9', 'icon10', 'icon11', 'icon12', 'icon13', 'icon14', 'icon15', 'icon16', 'icon17', 'icon18'];
 $awards = [
           'heading' => 'Partners, Awards, Accolades, Recognition Gained By <span>Buildrr</span>',
 		  'items' => ['icon1','icon2', 'icon3', 'icon4', 'icon5', 'icon6'],
 		  'images' => $images,
-		  'slides' => $slides,
+		 // 'slides' => $slides,
 		  'bg_class' => 'bg-green',
 
 ];

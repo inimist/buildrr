@@ -150,7 +150,7 @@ $template_file_name = $template_file_name !='' && $template_file_name == 'index'
 		]
 ];
 
-	$child_parent = ["Services" => "services","Hire Developer" => "hire-developer","Company" => "about-us"];
+	/*$child_parent = ["Services" => "services","Hire Developer" => "hire-developer","Company" => "about-us"];
 	if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   
          $url = "https://";   
     else  
@@ -160,11 +160,7 @@ $template_file_name = $template_file_name !='' && $template_file_name == 'index'
 	$keys = parse_url($url);
 	$path = explode("/", $keys['path']);
 
-	if($_SERVER['REQUEST_URI'] == 'buildrr') {
-		$last = $path[1];
-	}else{
-		$last = $path[2];
-	}
+	$last = $path[1];
 
 	function get_child_2($last,$menus){
 		
@@ -191,7 +187,7 @@ $template_file_name = $template_file_name !='' && $template_file_name == 'index'
 	}
 	if(!is_null($last) && !empty($last)){
 		$sec_child = "<li class=breadcrumb-item'><a href='".$parent."'>".$last."</li>";
-	}
+	}*/
 ?>
 
 	<!-- <div class="bread-crumb">

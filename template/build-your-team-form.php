@@ -129,7 +129,7 @@ if(isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"]== "POST"){
 			<div class="autocomplete position-relative d-flex align-items-center">
 				<i class="fa fa-globe-asia"></i><input type="text" placeholder="Country" id="country" name="country" required/>
 			</div>
-			<div class="autocomplete position-relative d-flex align-items-center">
+			<div class="autocomplete position-relative d-flex align-items-center mb-4">
 				<i class="fa fa-newspaper"></i><input type="text" placeholder="Requirement" id="requirement" name="requirement" required/>
 			</div>
 			<div class="g-recaptcha" data-sitekey="6LdevxwkAAAAAJpmwMTVNG-VY8SlQWFaALec0Ngy"></div>

@@ -24,7 +24,7 @@ $bg_class = isset($args['bg_class']) ? $args['bg_class']: '';
 				?>
 				</ul>
 			</div>
-			<div class="partners glider-contain mt-3">
+			<!-- <div class="partners glider-contain mt-3">
 				<div id="partners-slider" class="slick slide" data-bs-ride="slick-slide">
 				<?php
 				   foreach($slides as $slide){
@@ -35,7 +35,7 @@ $bg_class = isset($args['bg_class']) ? $args['bg_class']: '';
 				<?php
 				  }
 				?>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
