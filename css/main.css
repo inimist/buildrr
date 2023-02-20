@@ -5,7 +5,7 @@
 .servicesRow .hireMain-services .laravel-services i {
     width: 80px;
     height: 80px;
-    background: url('../images/hire_Laravel_sprite.png') no-repeat;
+    background: url('../images/hire_Laravel_vector.png') no-repeat;
 	display: block;
 }
 .servicesRow .hireMain-services .laravel-services .icon2 {
@@ -16,7 +16,7 @@
 }
 
 .servicesRow .hireMain-services .laravel-services .icon4 {
-    background-position: 0 -392px;
+    background-position: 0 -400px;
 }
 .servicesRow .hireMain-services .laravel-services .icon5 {
     background-position: 0 -525px;
@@ -25,10 +25,10 @@
     background-position: 0 -665px;
 }
 .servicesRow .hireMain-services .laravel-services .icon7 {
-    background-position: 0 -796px;
+    background-position: 0 -823px;
 }
 .servicesRow .hireMain-services .laravel-services .icon8 {
-    background-position: 0 -940px;
+    background-position: 0 -960px ;
 }
 .servicesRow .hireMain-services .laravel-services .icon9 {
     background-position: 0 -1100px;
